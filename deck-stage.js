@@ -85,10 +85,11 @@
       pointer-events: none;
     }
     .tapzone {
-      flex: 1;
+      flex: 0 0 9%;
       pointer-events: auto;
       -webkit-tap-highlight-color: transparent;
     }
+    .tapzone--mid { flex: 1; pointer-events: none; }
     @media (hover: hover) and (pointer: fine) {
       .tapzones { display: none; }
     }
